@@ -1,0 +1,15 @@
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\bin\Debug\net8.0\AluraPOO.exe
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\bin\Debug\net8.0\AluraPOO.deps.json
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\bin\Debug\net8.0\AluraPOO.runtimeconfig.json
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\bin\Debug\net8.0\AluraPOO.dll
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\bin\Debug\net8.0\AluraPOO.pdb
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.AssemblyInfoInputs.cache
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.AssemblyInfo.cs
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.sourcelink.json
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.dll
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\refint\AluraPOO.dll
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.pdb
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\AluraPOO.genruntimeconfig.cache
+C:\Users\Henrique\Documents\CursoNET\Alura\CursoPOO_Alura\AluraPOO\obj\Debug\net8.0\ref\AluraPOO.dll
