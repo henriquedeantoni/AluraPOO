@@ -1,7 +1,6 @@
 ﻿//Screen Sound Application
 string mensagemBoasVindas = "Boas Vindas ao Screen Sound";
-List<string> listaDasBandas = new List<string>();
-
+List<string> listaDasBandas = new List<string>() { "U2", "Nine Inch Nails", "Red Hot Chilli Peppers" };
 void ExibirLogo()
 {
     Console.WriteLine(@"
@@ -38,7 +37,7 @@ void ExibirOpcoesMenu()
             RegistrarBandas();
             break;
         case 2:
-            Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
+            MostrarBandasRegistradas();
             break;
         case 3:
             Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
@@ -58,15 +57,33 @@ void ExibirOpcoesMenu()
 void RegistrarBandas()
 {
     Console.Clear();
+    Console.WriteLine("*******************************************************");
     Console.WriteLine("Registro de Bandas");
+    Console.WriteLine("*******************************************************\n");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine();
     listaDasBandas.Add(nomeDaBanda);
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso.");
-    Thread.Sleep(1500);
+    Thread.Sleep(1000);
     Console.Clear();
     ExibirOpcoesMenu();
 };
+
+void MostrarBandasRegistradas()
+{
+    Console.Clear();
+    Console.WriteLine("*******************************************************");
+    Console.WriteLine("Exibindo todas as bandas registradas");
+    Console.WriteLine("*******************************************************\n");
+    for(int i = 0; i< listaDasBandas.Count; i++)
+    {
+        Console.WriteLine($"Banda: {listaDasBandas[i].ToString()}" );
+    }
+    Console.WriteLine("\nDigite qualquer tecla para voltar ao Menu Principal: ");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesMenu();
+}
 
 
 ExibirOpcoesMenu();
