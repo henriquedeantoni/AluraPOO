@@ -1,6 +1,10 @@
 ﻿//Screen Sound Application
 string mensagemBoasVindas = "Boas Vindas ao Screen Sound";
 List<string> listaDasBandas = new List<string>() { "U2", "Nine Inch Nails", "Red Hot Chilli Peppers" };
+
+
+Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
+
 void ExibirLogo()
 {
     Console.WriteLine(@"
@@ -34,7 +38,7 @@ void ExibirOpcoesMenu()
     switch(opcaoEscolhidaNumerica)
     {
         case 1:
-            RegistrarBandas();
+            RegistrarBanda();
             break;
         case 2:
             MostrarBandasRegistradas();
@@ -53,37 +57,43 @@ void ExibirOpcoesMenu()
     }
 }
 
-            
-void RegistrarBandas()
-{
-    Console.Clear();
-    Console.WriteLine("*******************************************************");
-    Console.WriteLine("Registro de Bandas");
-    Console.WriteLine("*******************************************************\n");
-    Console.Write("Digite o nome da banda que deseja registrar: ");
-    string nomeDaBanda = Console.ReadLine();
-    listaDasBandas.Add(nomeDaBanda);
-    Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso.");
-    Thread.Sleep(1000);
-    Console.Clear();
-    ExibirOpcoesMenu();
-};
 
-void MostrarBandasRegistradas()
+void RegistrarBanda()
 {
     Console.Clear();
-    Console.WriteLine("*******************************************************");
-    Console.WriteLine("Exibindo todas as bandas registradas");
-    Console.WriteLine("*******************************************************\n");
-    for(int i = 0; i< listaDasBandas.Count; i++)
-    {
-        Console.WriteLine($"Banda: {listaDasBandas[i].ToString()}" );
-    }
-    Console.WriteLine("\nDigite qualquer tecla para voltar ao Menu Principal: ");
-    Console.ReadKey();
+    ExibirTituloDaOpcao("Registro de bandas");
+    Console.Write("Digite o nome da banda que deseja registrar: ");
+    string nomeDaBanda = Console.ReadLine()!;
+    listaDasBandas.Add(nomeDaBanda);
+    Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
+    Thread.Sleep(2000);
     Console.Clear();
     ExibirOpcoesMenu();
 }
 
+void MostrarBandasRegistradas()
+{
+    Console.Clear();
+    ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
+
+    foreach (string banda in listaDasBandas)
+    {
+        Console.WriteLine($"Banda: {banda}");
+    }
+
+    Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesMenu();
+
+}
+void ExibirTituloDaOpcao(string titulo)
+{
+    int quantidadeCaracteres = titulo.Length;
+    string asteriscos = string.Empty.PadLeft(quantidadeCaracteres, '*');
+    Console.WriteLine(asteriscos);
+    Console.WriteLine(titulo);
+    Console.WriteLine(asteriscos + "\n");
+}
 
 ExibirOpcoesMenu();
