@@ -2,7 +2,7 @@
 string mensagemBoasVindas = "Boas Vindas ao Screen Sound";
 
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
-bandasRegistradas.Add("Link Park", new List<int> { 10, 7, 9 });
+bandasRegistradas.Add("Link Park", new List<int> { 10, 7, 8 });
 bandasRegistradas.Add("The Beatles", new List<int> ());
 
 void ExibirLogo()
@@ -47,10 +47,10 @@ void ExibirOpcoesMenu()
             AvaliarUmaBanda();
             break;
         case 4:
-            Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
+            ExibeMediaBanda();
             break;
         case -1:
-            Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
+            SairAplicação();
             break;
         default: Console.WriteLine("\t Opção Inválida. \n \t Encerrando a aplicação ");
             break;
@@ -124,6 +124,54 @@ void ExibirTituloDaOpcao(string titulo)
     Console.WriteLine(asteriscos);
     Console.WriteLine(titulo);
     Console.WriteLine(asteriscos + "\n");
+}
+
+void ExibeMediaBanda()
+{
+    Console.Clear();
+    ExibirTituloDaOpcao("Exibir Média");
+    Console.Write("Digite o nome da banda que deseja obter a média: ");
+    string nomeDaBanda = Console.ReadLine()!;
+    int soma = 0;
+    int notas=0;
+    double media = 0;
+
+    if(bandasRegistradas.ContainsKey(nomeDaBanda) && bandasRegistradas[nomeDaBanda].Count>0)
+    {
+        /*
+        foreach(int banda in bandasRegistradas[nomeDaBanda])
+        {
+            notas ++;
+            soma += banda;
+        }
+        media = soma / notas;
+        Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {media}");
+        */
+        Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {bandasRegistradas[nomeDaBanda].Average()}");
+        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesMenu();
+    }
+    else
+    {
+        Console.WriteLine($"A banda {nomeDaBanda} não foi cadastrada.");
+        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesMenu();
+    }
+
+    
+    Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesMenu();
+}
+
+void SairAplicação()
+{
+    Environment.Exit(0);
 }
 
 ExibirOpcoesMenu();
