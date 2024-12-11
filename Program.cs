@@ -1,9 +1,9 @@
 ﻿//Screen Sound Application
 string mensagemBoasVindas = "Boas Vindas ao Screen Sound";
-List<string> listaDasBandas = new List<string>() { "U2", "Nine Inch Nails", "Red Hot Chilli Peppers" };
-
 
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
+bandasRegistradas.Add("Link Park", new List<int> { 10, 7, 9 });
+bandasRegistradas.Add("The Beatles", new List<int> ());
 
 void ExibirLogo()
 {
@@ -44,7 +44,7 @@ void ExibirOpcoesMenu()
             MostrarBandasRegistradas();
             break;
         case 3:
-            Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
+            AvaliarUmaBanda();
             break;
         case 4:
             Console.WriteLine("\t Voce escolheu a opção " + opcaoEscolhidaNumerica);
@@ -57,6 +57,36 @@ void ExibirOpcoesMenu()
     }
 }
 
+void AvaliarUmaBanda()
+{
+    //digite qual banda deseja avaliar
+    // se a banda exitir no dicionario >> atribuir uma nota
+    // senão, volta ao menu principal
+
+    Console.Clear();
+    ExibirTituloDaOpcao("Avaliar banda");
+    Console.Write("Digite o nome da banda que deseja avaliar: ");
+    string nomeDaBanda = Console.ReadLine()!;
+    if (bandasRegistradas.ContainsKey(nomeDaBanda))
+    {
+        Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
+        int nota = int.Parse(Console.ReadLine()!);
+        bandasRegistradas[nomeDaBanda].Add(nota);
+        Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
+        Thread.Sleep(2000);
+        Console.Clear();
+        ExibirOpcoesMenu();
+    }
+    else
+    {
+        Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
+        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesMenu();
+    }
+
+}
 
 void RegistrarBanda()
 {
@@ -64,7 +94,7 @@ void RegistrarBanda()
     ExibirTituloDaOpcao("Registro de bandas");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
-    listaDasBandas.Add(nomeDaBanda);
+    bandasRegistradas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
     Thread.Sleep(2000);
     Console.Clear();
@@ -76,7 +106,7 @@ void MostrarBandasRegistradas()
     Console.Clear();
     ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
 
-    foreach (string banda in listaDasBandas)
+    foreach (string banda in bandasRegistradas.Keys)
     {
         Console.WriteLine($"Banda: {banda}");
     }
