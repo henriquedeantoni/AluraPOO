@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Music.cs",
+              "RelativeDocumentMoniker": "Music.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Music.cs",
+              "RelativeToolTip": "Music.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T02:56:32.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T02:57:41.956Z",
               "EditorCaption": ""
