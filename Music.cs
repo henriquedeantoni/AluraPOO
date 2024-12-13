@@ -1,9 +1,9 @@
-﻿public class Music
+﻿class Music
 {
     public string title;
     public string artist;
     public int duration;
-    public bool available;
+    private bool available;
 
     public void ShowMusicInformation()
     {
