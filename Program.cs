@@ -1,14 +1,18 @@
 ﻿Music musica1 = new Music();
-musica1.title = "Roxane";
-musica1.artist = "The Police";
-musica1.duration = 273;
-musica1.available = true;
+musica1.Title = "Roxane";
+musica1.Artist = "The Police";
+musica1.Duration = 273;
+musica1.Available = true;
+Console.WriteLine(musica1.ShortDescription);
+Console.WriteLine(musica1.DurationDescription);
 
 Music musica2 = new Music();
-musica2.title = "Vertigo";
-musica2.artist = "U2";
-musica2.duration = 367;
-musica2.available = false;
+musica2.Title = "Vertigo";
+musica2.Artist = "U2";
+musica2.Duration = 367;
+musica2.Available = true;
+Console.WriteLine(musica2.ShortDescription);
+Console.WriteLine(musica2.DurationDescription);
 
 musica1.ShowMusicInformation();
 musica2.ShowMusicInformation();

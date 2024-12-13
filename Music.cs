@@ -1,16 +1,25 @@
-﻿public class Music
+﻿class Music
 {
-    public string title;
-    public string artist;
-    public int duration;
-    public bool available;
+    public string Title { get; set; }
+    public string Artist { get; set; }
+    public int Duration { get; set; }
+    public bool Available { get; set; } // get e set são metodos de leitura(set) e escrita(get)
+    public string ShortDescription
+    {
+        get
+        {
+            return $"A musica {Title} pertence a banda {Artist}";
+        }
+    }
+    public string DurationDescription => $"A musica {Title} possui tempo de duração de {Duration} segundos";
+    
 
     public void ShowMusicInformation()
     {
-        Console.WriteLine($"Nome: {title}");
-        Console.WriteLine($"Artista: {artist}");
-        Console.WriteLine($"Duração: {duration}");
-        if (available)
+        Console.WriteLine($"Nome: {Title}");
+        Console.WriteLine($"Artista: {Artist}");
+        Console.WriteLine($"Duração: {Duration}");
+        if (Available)
         {
             Console.WriteLine("Disponível no plano.");
         }
