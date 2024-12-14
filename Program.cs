@@ -1,18 +1,15 @@
-﻿Music musica1 = new Music();
-musica1.Title = "Roxane";
-musica1.Artist = "The Police";
-musica1.Duration = 273;
-musica1.Available = true;
-Console.WriteLine(musica1.ShortDescription);
-Console.WriteLine(musica1.DurationDescription);
+﻿Album albumTheQueen = new Album();
+albumTheQueen.Title = "A Night at The Opera";
 
-Music musica2 = new Music();
-musica2.Title = "Vertigo";
-musica2.Artist = "U2";
-musica2.Duration = 367;
-musica2.Available = true;
-Console.WriteLine(musica2.ShortDescription);
-Console.WriteLine(musica2.DurationDescription);
+Music music1 = new Music();
+music1.Title = "Love of my Life";
+music1.Duration = 213;
 
-musica1.ShowMusicInformation();
-musica2.ShowMusicInformation();
+Music music2 = new Music();
+music2.Title = "Bohemian Rhapsody";
+music2.Duration = 354;
+
+albumTheQueen.AddMusic(music1);
+albumTheQueen.AddMusic(music2);
+
+albumTheQueen.ShowAlbumInformation();
