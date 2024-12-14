@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Album.cs",
+              "RelativeDocumentMoniker": "Album.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Album.cs",
+              "RelativeToolTip": "Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T02:53:14.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Music.cs",
               "RelativeDocumentMoniker": "Music.cs",
@@ -62,7 +79,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T02:57:41.956Z",
               "EditorCaption": ""
