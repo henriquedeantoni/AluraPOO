@@ -13,7 +13,7 @@
     #region Props
     //props
     public string Title { get; }
-    public Banda Artist { get; set; }
+    public Banda Artist { get;  }
     public int Duration { get; set; }
     public bool Available { get; set; } // get e set são metodos de leitura(set) e escrita(get)
     public string ShortDescription
