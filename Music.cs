@@ -2,16 +2,18 @@
 {
     #region Constructor
     //constructor
-    public Music(Banda artist)
+    public Music(Banda artist, string title)
     {
         Artist = artist;
+        Title = title;
     }
+
     #endregion
 
     #region Props
     //props
-    public string Title { get; set; }
-    public Banda Artist { get; set; }
+    public string Title { get; }
+    public Banda Artist { get;  }
     public int Duration { get; set; }
     public bool Available { get; set; } // get e set são metodos de leitura(set) e escrita(get)
     public string ShortDescription
@@ -28,7 +30,7 @@
     public void ShowMusicInformation()
     {
         Console.WriteLine($"Nome: {Title}");
-        Console.WriteLine($"Artista: {Artist}");
+        Console.WriteLine($"Artista: {Artist.Title}");
         Console.WriteLine($"Duração: {Duration}");
         if (Available)
         {
