@@ -30,3 +30,19 @@ music2.ShowMusicInformation();
 
 queen.AddAlbum(albumTheQueen);
 queen.ShowDiscography();
+
+Episode ep1 = new(3250, 2, "Programação Orientada à objetos");
+ep1.AddGuest("João Almeida");
+ep1.AddGuest("Francisco Beltrão");
+Console.WriteLine(ep1.Summary);
+
+Episode ep2 = new(4680, 1, "Algoritmos");
+ep2.AddGuest("João Almeida");
+ep2.AddGuest("Francisco Beltrão");
+ep2.AddGuest("Flavia Gonçalves");
+Console.WriteLine(ep2.Summary);
+
+Podcast podcast = new("Jonas Klink", "Programador Avião");
+podcast.AddEpisodes(ep1);
+podcast.AddEpisodes(ep2);
+podcast.ShowDetails();
