@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AluraPOO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d92e3752ef5718ca8996ea4add81f4f995c16bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fda9ab9db5f74d1ab4892761706199159c035634")]
 [assembly: System.Reflection.AssemblyProductAttribute("AluraPOO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AluraPOO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
