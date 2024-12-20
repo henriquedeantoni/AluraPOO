@@ -1,4 +1,6 @@
-﻿class Episode
+﻿namespace AluraPOO.Models;
+
+class Episode
 {
     #region Constructor
     public Episode(int duration, int index, string title)

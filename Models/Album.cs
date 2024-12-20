@@ -1,4 +1,6 @@
-﻿class Album
+﻿namespace AluraPOO.Models;
+
+class Album
 {
     public Album(string title)
     {
