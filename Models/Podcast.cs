@@ -1,4 +1,6 @@
-﻿class Podcast
+﻿namespace AluraPOO.Models;
+
+class Podcast
 {
     #region Constructor
 

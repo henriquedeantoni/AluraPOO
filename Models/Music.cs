@@ -1,4 +1,6 @@
-﻿class Music
+﻿namespace AluraPOO.Models;
+
+class Music
 {
     #region Constructor
     //constructor
