@@ -1,9 +1,9 @@
 ﻿using AluraPOO.Models;
 
 Banda ira = new Banda("Ira!");
-ira.AddRating(10);
-ira.AddRating(8);
-ira.AddRating(6);
+ira.AddRating(new Rating(10));
+ira.AddRating(new Rating(9));
+ira.AddRating(new Rating(7));
 Banda beatles = new("The Beatles");
 
 
@@ -69,9 +69,9 @@ void AvaliarUmaBanda()
     {
         Banda banda = bandasRegistradas[nomeDaBanda];
         Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
-        int nota = int.Parse(Console.ReadLine()!);
-        banda.AddRating(nota);
-        Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
+        Rating rating = Rating.Parse(Console.ReadLine()!);
+        banda.AddRating(rating);
+        Console.WriteLine($"\nA nota {rating.BandRating} foi registrada com sucesso para a banda {nomeDaBanda}");
         Thread.Sleep(2000);
         Console.Clear();
         ExibirOpcoesMenu();
