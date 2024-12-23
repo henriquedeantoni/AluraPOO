@@ -1,6 +1,6 @@
 ﻿namespace AluraPOO.Models;
 
-class Banda
+internal class Banda
 {
     public Banda(string title)
     {

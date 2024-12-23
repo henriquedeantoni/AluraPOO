@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +23,20 @@
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\alurapoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:alurapoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\alurapoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:alurapoo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Rating.cs",
+              "RelativeToolTip": "Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T00:36:31.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AluraPOO",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\AluraPOO.csproj",
               "RelativeDocumentMoniker": "AluraPOO.csproj",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Episode.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Episode.cs",
               "RelativeDocumentMoniker": "Models\\Episode.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Podcast.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Podcast.cs",
               "RelativeDocumentMoniker": "Models\\Podcast.cs",
@@ -95,14 +112,14 @@
               "RelativeDocumentMoniker": "Models\\Music.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Music.cs",
               "RelativeToolTip": "Models\\Music.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T02:37:29.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Banda.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Banda.cs",
               "RelativeDocumentMoniker": "Models\\Banda.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Album.cs",
               "RelativeDocumentMoniker": "Models\\Album.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -136,17 +153,18 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-12-13T03:21:26.348Z"
+              "WhenOpened": "2024-12-13T03:21:26.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAcwIIAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T02:57:41.956Z",
               "EditorCaption": ""
