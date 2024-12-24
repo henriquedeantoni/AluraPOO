@@ -38,7 +38,9 @@ void ExibirOpcoesMenu()
     switch (opcaoEscolhidaNumerica)
     {
         case 1:
-            RegistrarBanda();
+            MenuRegisterBand menuRegisterBand = new MenuRegisterBand();
+            menuRegisterBand.Execute(bandasRegistradas);
+            ExibirOpcoesMenu();
             break;
         case 2:
             MostrarBandasRegistradas();
@@ -46,9 +48,12 @@ void ExibirOpcoesMenu()
         case 3:
             MenuRateBand menuRateBand = new MenuRateBand();
             menuRateBand.Execute(bandasRegistradas);
+            ExibirOpcoesMenu();
             break;
         case 4:
-            ExibeMediaBanda();
+            MenuShowAvarageBand menuShowAvarageBand = new MenuShowAvarageBand();
+            menuShowAvarageBand.Execute(bandasRegistradas);
+            ExibirOpcoesMenu();
             break;
         case 5:
             MenuShowDetails menuShowDetails = new MenuShowDetails();
@@ -64,35 +69,6 @@ void ExibirOpcoesMenu()
     }
 }
 
-void RegistrarAlbum()
-{
-    Console.Clear();
-    ExibirTituloDaOpcao("Registro de álbuns");
-    Console.Write("Digite a banda cujo álbum deseja registrar: ");
-    string nomeDaBanda = Console.ReadLine()!;
-    Console.Write("Agora digite o título do álbum: ");
-    string tituloAlbum = Console.ReadLine()!;
-    /**
-     * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
-     */
-    Console.WriteLine($"O álbum {tituloAlbum} de {nomeDaBanda} foi registrado com sucesso!");
-    Thread.Sleep(4000);
-    Console.Clear();
-    ExibirOpcoesMenu();
-}
-void RegistrarBanda()
-{
-    Console.Clear();
-    ExibirTituloDaOpcao("Registro de bandas");
-    Console.Write("Digite o nome da banda que deseja registrar: ");
-    string nomeDaBanda = Console.ReadLine()!;
-    Banda banda = new Banda(nomeDaBanda);
-    bandasRegistradas.Add(nomeDaBanda, banda);
-    Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
-    Thread.Sleep(2000);
-    Console.Clear();
-    ExibirOpcoesMenu();
-}
 void MostrarBandasRegistradas()
 {
     Console.Clear();
@@ -114,48 +90,6 @@ void ExibirTituloDaOpcao(string titulo)
     Console.WriteLine(titulo);
     Console.WriteLine(asteriscos + "\n");
 }
-void ExibeMediaBanda()
-{
-    Console.Clear();
-    ExibirTituloDaOpcao("Exibir Média");
-    Console.Write("Digite o nome da banda que deseja obter a média: ");
-    string nomeDaBanda = Console.ReadLine()!;
-    int soma = 0;
-    int notas = 0;
-    double media = 0;
-    if (bandasRegistradas.ContainsKey(nomeDaBanda))
-    {
-        /*
-        foreach(int banda in bandasRegistradas[nomeDaBanda])
-        {
-            notas ++;
-            soma += banda;
-        }
-        media = soma / notas;
-        Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {media}");
-        */
-        Banda banda = bandasRegistradas[nomeDaBanda];
-        Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {banda.Avarage}");
-        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesMenu();
-    }
-    else
-    {
-        Console.WriteLine($"A banda {nomeDaBanda} não foi cadastrada.");
-        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesMenu();
-    }
-
-    Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
-    Console.ReadKey();
-    Console.Clear();
-    ExibirOpcoesMenu();
-}
-
 void SairAplicação()
 {
     Environment.Exit(0);
