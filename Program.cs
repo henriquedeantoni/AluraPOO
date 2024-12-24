@@ -43,7 +43,9 @@ void ExibirOpcoesMenu()
             ExibirOpcoesMenu();
             break;
         case 2:
-            MostrarBandasRegistradas();
+            MenuShowRegisteredBand menuShowRegisteredBand = new MenuShowRegisteredBand();
+            menuShowRegisteredBand.Execute(bandasRegistradas);
+            ExibirOpcoesMenu();
             break;
         case 3:
             MenuRateBand menuRateBand = new MenuRateBand();
@@ -61,7 +63,8 @@ void ExibirOpcoesMenu()
             ExibirOpcoesMenu();
             break;
         case -1:
-            SairAplicação();
+            MenuCloseApplication menuClose = new MenuCloseApplication();
+            menuClose.Execute();
             break;
         default:
             Console.WriteLine("\t Opção Inválida. \n \t Encerrando a aplicação ");
@@ -69,30 +72,5 @@ void ExibirOpcoesMenu()
     }
 }
 
-void MostrarBandasRegistradas()
-{
-    Console.Clear();
-    ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
-    foreach (string banda in bandasRegistradas.Keys)
-    {
-        Console.WriteLine($"Banda: {banda}");
-    }
-    Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
-    Console.ReadKey();
-    Console.Clear();
-    ExibirOpcoesMenu();
-}
-void ExibirTituloDaOpcao(string titulo)
-{
-    int quantidadeCaracteres = titulo.Length;
-    string asteriscos = string.Empty.PadLeft(quantidadeCaracteres, '*');
-    Console.WriteLine(asteriscos);
-    Console.WriteLine(titulo);
-    Console.WriteLine(asteriscos + "\n");
-}
-void SairAplicação()
-{
-    Environment.Exit(0);
-}
 ExibirOpcoesMenu();
 

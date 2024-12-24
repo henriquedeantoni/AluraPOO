@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\menus\\menucloseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:menus\\menucloseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\menus\\menushowregisteredband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:menus\\menushowregisteredband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|c:\\users\\henrique\\documents\\cursonet\\alura\\cursopoo_alura\\alurapoo\\menus\\menuregisterband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CEB9793-798B-4422-B79C-050E56B1B2DC}|AluraPOO.csproj|solutionrelative:menus\\menuregisterband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,6 +83,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MenuCloseApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuCloseApplication.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuCloseApplication.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuCloseApplication.cs",
+              "RelativeToolTip": "Menus\\MenuCloseApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T04:02:09.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuShowRegisteredBand.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuShowRegisteredBand.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuShowRegisteredBand.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuShowRegisteredBand.cs",
+              "RelativeToolTip": "Menus\\MenuShowRegisteredBand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T03:46:25.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MenuRegisterBand.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuRegisterBand.cs",
               "RelativeDocumentMoniker": "Menus\\MenuRegisterBand.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MenuShowAvarageBand.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuShowAvarageBand.cs",
               "RelativeDocumentMoniker": "Menus\\MenuShowAvarageBand.cs",
@@ -100,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\Menu.cs",
               "RelativeDocumentMoniker": "Menus\\Menu.cs",
@@ -113,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MenuRateBand.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuRateBand.cs",
               "RelativeDocumentMoniker": "Menus\\MenuRateBand.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MenuShowDetails.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Menus\\MenuShowDetails.cs",
               "RelativeDocumentMoniker": "Menus\\MenuShowDetails.cs",
@@ -140,31 +174,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Episode.cs",
-              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Episode.cs",
-              "RelativeDocumentMoniker": "Models\\Episode.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Episode.cs",
-              "RelativeToolTip": "Models\\Episode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:33:28.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Podcast.cs",
-              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Podcast.cs",
-              "RelativeDocumentMoniker": "Models\\Podcast.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Podcast.cs",
-              "RelativeToolTip": "Models\\Podcast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:15:57.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Music.cs",
               "RelativeDocumentMoniker": "Models\\Music.cs",
@@ -177,7 +186,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:57:41.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Episode.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Episode.cs",
+              "RelativeDocumentMoniker": "Models\\Episode.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Episode.cs",
+              "RelativeToolTip": "Models\\Episode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T01:33:28.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Banda.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Banda.cs",
               "RelativeDocumentMoniker": "Models\\Banda.cs",
@@ -189,20 +224,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC0AAAASAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Podcast.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Podcast.cs",
+              "RelativeDocumentMoniker": "Models\\Podcast.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Podcast.cs",
+              "RelativeToolTip": "Models\\Podcast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T02:57:41.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T01:15:57.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AluraPOO.csproj",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\AluraPOO.csproj",
               "RelativeDocumentMoniker": "AluraPOO.csproj",
@@ -214,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Album.cs",
               "RelativeDocumentMoniker": "Models\\Album.cs",
@@ -226,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Rating.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\Models\\Rating.cs",
               "RelativeDocumentMoniker": "Models\\Rating.cs",
@@ -238,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\Alura\\CursoPOO_Alura\\AluraPOO\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
