@@ -8,16 +8,23 @@ internal class Banda
     }
 
     private List<Album> albums = new List<Album>();
-    private List<int> ratings = new List<int>();
+    private List<Rating> ratings = new List<Rating>();
     public string Title { get; }
-    public double Avarage => ratings.Average();
+    public double Avarage
+    {
+        get
+        {
+            if(ratings.Count == 0) return 0;
+            else return ratings.Average(r => r.BandRating);
+        }
+    }
 
     public void AddAlbum(Album album)
     {
         albums.Add(album);
     }
 
-    public void AddRating(int rating)
+    public void AddRating(Rating rating)
     {
         ratings.Add(rating);
     }

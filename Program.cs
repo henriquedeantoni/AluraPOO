@@ -1,9 +1,10 @@
-﻿using AluraPOO.Models;
+﻿using AluraPOO.Menus;
+using AluraPOO.Models;
 
 Banda ira = new Banda("Ira!");
-ira.AddRating(10);
-ira.AddRating(8);
-ira.AddRating(6);
+ira.AddRating(new Rating(10));
+ira.AddRating(new Rating(9));
+ira.AddRating(new Rating(7));
 Banda beatles = new("The Beatles");
 
 
@@ -43,10 +44,16 @@ void ExibirOpcoesMenu()
             MostrarBandasRegistradas();
             break;
         case 3:
-            AvaliarUmaBanda();
+            MenuRateBand menuRateBand = new MenuRateBand();
+            menuRateBand.Execute(bandasRegistradas);
             break;
         case 4:
             ExibeMediaBanda();
+            break;
+        case 5:
+            MenuShowDetails menuShowDetails = new MenuShowDetails();
+            menuShowDetails.Execute(bandasRegistradas);
+            ExibirOpcoesMenu();
             break;
         case -1:
             SairAplicação();
@@ -56,35 +63,7 @@ void ExibirOpcoesMenu()
             break;
     }
 }
-void AvaliarUmaBanda()
-{
-    //digite qual banda deseja avaliar
-    // se a banda exitir no dicionario >> atribuir uma nota
-    // senão, volta ao menu principal
-    Console.Clear();
-    ExibirTituloDaOpcao("Avaliar banda");
-    Console.Write("Digite o nome da banda que deseja avaliar: ");
-    string nomeDaBanda = Console.ReadLine()!;
-    if (bandasRegistradas.ContainsKey(nomeDaBanda))
-    {
-        Banda banda = bandasRegistradas[nomeDaBanda];
-        Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
-        int nota = int.Parse(Console.ReadLine()!);
-        banda.AddRating(nota);
-        Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
-        Thread.Sleep(2000);
-        Console.Clear();
-        ExibirOpcoesMenu();
-    }
-    else
-    {
-        Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
-        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesMenu();
-    }
-}
+
 void RegistrarAlbum()
 {
     Console.Clear();
@@ -176,60 +155,10 @@ void ExibeMediaBanda()
     Console.Clear();
     ExibirOpcoesMenu();
 }
+
 void SairAplicação()
 {
     Environment.Exit(0);
 }
 ExibirOpcoesMenu();
 
-//Parte Antiga
-/*
-Banda queen = new Banda("Queen");
-
-Album albumTheQueen = new Album("A Night at The Opera");
-
-Music music1 = new Music(queen, "Love of my Life")
-{
-    Duration = 213,
-    Available = true,
-};
-
-Music music2 = new Music(queen, "Who Wants to Live Forever")
-{
-    Duration = 305,
-    Available = false,
-};
-
-
-
-Music music3 = new Music(queen, "Bohemian Rhapsody");
-music3.Duration = 354;
-
-albumTheQueen.AddMusic(music1);
-albumTheQueen.AddMusic(music2);
-albumTheQueen.AddMusic(music3);
-
-albumTheQueen.ShowAlbumInformation();
-
-music1.ShowMusicInformation();
-music2.ShowMusicInformation();
-
-queen.AddAlbum(albumTheQueen);
-queen.ShowDiscography();
-
-Episode ep1 = new(3250, 2, "Programação Orientada à objetos");
-ep1.AddGuest("João Almeida");
-ep1.AddGuest("Francisco Beltrão");
-Console.WriteLine(ep1.Summary);
-
-Episode ep2 = new(4680, 1, "Algoritmos");
-ep2.AddGuest("João Almeida");
-ep2.AddGuest("Francisco Beltrão");
-ep2.AddGuest("Flavia Gonçalves");
-Console.WriteLine(ep2.Summary);
-
-Podcast podcast = new("Jonas Klink", "Programador Avião");
-podcast.AddEpisodes(ep1);
-podcast.AddEpisodes(ep2);
-podcast.ShowDetails();
-*/
