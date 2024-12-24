@@ -5,9 +5,9 @@ namespace AluraPOO.Menus;
 internal class MenuRateBand : Menu
 {
     
-    public void Execute(Dictionary<string, Banda> bandasRegistradas)
+    public override void Execute(Dictionary<string, Banda> bandasRegistradas)
     {
-        Console.Clear();
+        base.Execute(bandasRegistradas);
         ExibirTituloDaOpcao("Avaliar banda");
         Console.Write("Digite o nome da banda que deseja avaliar: ");
         string nomeDaBanda = Console.ReadLine()!;

@@ -1,8 +1,10 @@
-﻿namespace AluraPOO.Menus
+﻿using AluraPOO.Models;
+
+namespace AluraPOO.Menus
 {
-    internal class MenuCloseApplication
+    internal class MenuCloseApplication : Menu
     {
-        internal void Execute()
+        public override void Execute(Dictionary<string, Banda> bandasRegistradas)
         {
             Environment.Exit(0);
         }

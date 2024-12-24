@@ -13,6 +13,15 @@ string mensagemBoasVindas = "Boas Vindas ao Screen Sound";
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(ira.Title, ira);
 bandasRegistradas.Add(beatles.Title, beatles);
+
+Dictionary<int, Menu> options = new Dictionary<int, Menu>();
+options.Add(1, new MenuRegisterBand());
+options.Add(2, new MenuShowRegisteredBand());
+options.Add(3, new MenuRateBand());
+options.Add(4, new MenuShowAvarageBand());
+options.Add(5, new MenuShowDetails());
+options.Add(-1, new MenuCloseApplication());
+
 void ExibirLogo()
 {
     Console.WriteLine(@"
@@ -35,41 +44,18 @@ void ExibirOpcoesMenu()
     Console.Write("\t Digite a sua opção: ");
     string opcaoEscolhida = Console.ReadLine()!;
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
-    switch (opcaoEscolhidaNumerica)
+
+    if(options.ContainsKey(opcaoEscolhidaNumerica))
     {
-        case 1:
-            MenuRegisterBand menuRegisterBand = new MenuRegisterBand();
-            menuRegisterBand.Execute(bandasRegistradas);
-            ExibirOpcoesMenu();
-            break;
-        case 2:
-            MenuShowRegisteredBand menuShowRegisteredBand = new MenuShowRegisteredBand();
-            menuShowRegisteredBand.Execute(bandasRegistradas);
-            ExibirOpcoesMenu();
-            break;
-        case 3:
-            MenuRateBand menuRateBand = new MenuRateBand();
-            menuRateBand.Execute(bandasRegistradas);
-            ExibirOpcoesMenu();
-            break;
-        case 4:
-            MenuShowAvarageBand menuShowAvarageBand = new MenuShowAvarageBand();
-            menuShowAvarageBand.Execute(bandasRegistradas);
-            ExibirOpcoesMenu();
-            break;
-        case 5:
-            MenuShowDetails menuShowDetails = new MenuShowDetails();
-            menuShowDetails.Execute(bandasRegistradas);
-            ExibirOpcoesMenu();
-            break;
-        case -1:
-            MenuCloseApplication menuClose = new MenuCloseApplication();
-            menuClose.Execute();
-            break;
-        default:
-            Console.WriteLine("\t Opção Inválida. \n \t Encerrando a aplicação ");
-            break;
+        Menu menuToShow = options[opcaoEscolhidaNumerica];
+        menuToShow.Execute(bandasRegistradas);
+        if(opcaoEscolhidaNumerica>0) ExibirOpcoesMenu();
     }
+    else
+    {
+        Console.WriteLine("Opção Invalida");
+    }
+
 }
 
 ExibirOpcoesMenu();

@@ -5,9 +5,9 @@ namespace AluraPOO.Menus
     internal class MenuShowRegisteredBand : Menu
     {
 
-        internal void Execute(Dictionary<string, Banda> bandasRegistradas)
+        public override void Execute(Dictionary<string, Banda> bandasRegistradas)
         {
-            Console.Clear();
+            base.Execute(bandasRegistradas);
             ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
             foreach (string banda in bandasRegistradas.Keys)
             {
