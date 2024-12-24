@@ -4,9 +4,9 @@ namespace AluraPOO.Menus;
 
 internal class MenuShowAvarageBand : Menu
 {
-    internal void Execute(Dictionary<string, Banda> bandasRegistradas)
+    public override void Execute(Dictionary<string, Banda> bandasRegistradas)
     {
-        Console.Clear();
+        base.Execute(bandasRegistradas);
         ExibirTituloDaOpcao("Exibir Média");
         Console.Write("Digite o nome da banda que deseja obter a média: ");
         string nomeDaBanda = Console.ReadLine()!;

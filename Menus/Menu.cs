@@ -1,4 +1,6 @@
-﻿namespace AluraPOO.Menus;
+﻿using AluraPOO.Models;
+
+namespace AluraPOO.Menus;
 
 internal class Menu
 {
@@ -9,6 +11,11 @@ internal class Menu
         Console.WriteLine(asteriscos);
         Console.WriteLine(titulo);
         Console.WriteLine(asteriscos + "\n");
+    }
+
+    public virtual void Execute(Dictionary<string, Banda> bandasRegistradas)
+    {
+        Console.Clear();
     }
     
 }

@@ -4,9 +4,9 @@ namespace AluraPOO.Menus;
 
 internal class MenuRegisterBand : Menu
 {
-    internal void Execute(Dictionary<string, Banda> bandasRegistradas)
+    public override void Execute(Dictionary<string, Banda> bandasRegistradas)
     {
-        Console.Clear();
+        base.Execute(bandasRegistradas);
         ExibirTituloDaOpcao("Registro de bandas");
         Console.Write("Digite o nome da banda que deseja registrar: ");
         string nomeDaBanda = Console.ReadLine()!;
