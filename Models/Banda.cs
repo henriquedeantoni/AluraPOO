@@ -1,6 +1,6 @@
 ﻿namespace AluraPOO.Models;
 
-internal class Banda
+internal class Banda : IAvailable
 {
     public Banda(string title)
     {
@@ -10,7 +10,7 @@ internal class Banda
     private List<Album> albums = new List<Album>();
     private List<Rating> ratings = new List<Rating>();
     public string Title { get; }
-    public double Avarage
+    public double Average
     {
         get
         {
@@ -18,6 +18,7 @@ internal class Banda
             else return ratings.Average(r => r.BandRating);
         }
     }
+    public List<Album> Albums => albums;
 
     public void AddAlbum(Album album)
     {
