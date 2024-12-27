@@ -16,7 +16,7 @@ internal class MenuShowAvarageBand : Menu
         if (bandasRegistradas.ContainsKey(nomeDaBanda))
         {
             Banda banda = bandasRegistradas[nomeDaBanda];
-            Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {banda.Avarage}");
+            Console.WriteLine($"A banda {nomeDaBanda} possui uma nota média de {banda.Average}");
             Console.WriteLine("Digite uma tecla para voltar ao menu principal");
             Console.ReadKey();
             Console.Clear();

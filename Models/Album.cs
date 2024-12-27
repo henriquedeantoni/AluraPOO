@@ -1,6 +1,6 @@
 ﻿namespace AluraPOO.Models;
 
-internal class Album
+internal class Album : IAvailable
 {
     public Album(string title)
     {
@@ -8,8 +8,18 @@ internal class Album
     }
 
     private List<Music> musics = new List<Music>();
+    private List<Rating> rates = new();
     public string Title { get; }
     public int TotalDuration => musics.Sum(music => music.Duration);
+
+    public double Average
+    {
+        get
+        {
+            if (rates.Count == 0) return 0;
+            else return rates.Average(a => a.BandRating);
+        }
+    }
 
     public void AddMusic(Music music)
     {
@@ -24,5 +34,10 @@ internal class Album
             Console.WriteLine($"Música: {music.Title}" );
         }
         Console.WriteLine($"\nA duração total do album é de {TotalDuration}");
+    }
+
+    public void AddRating(Rating rating)
+    {
+        rates.Add(rating);
     }
 }
